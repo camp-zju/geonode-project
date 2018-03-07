@@ -263,6 +263,8 @@ if USE_WORLDMAP:
     SOLR_URL = os.getenv('SOLR_URL', 'http://localhost:8983/solr/hypermap/select/')
     MAPPROXY_URL = os.getenv('MAPPROXY_URL', 'http://localhost:8001')
 
+    GOOGLE_MAPS_API_KEY = os.getenv('GOOGLE_MAPS_API_KEY')
+
     # Other settings
     GEONODE_CLIENT_LOCATION = '/static/worldmap/worldmap_client/'
     #GEONODE_CLIENT_LOCATION = 'http://localhost:9090/'
